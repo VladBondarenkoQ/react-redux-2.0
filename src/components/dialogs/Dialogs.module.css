@@ -1,0 +1,20 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  margin: 20px;
+
+}
+.dialogsItems {
+  border-right: 1px black solid;
+  margin-right: 10px;
+
+}
+.dialog a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+a.active  {
+  color: gold;
+}
+.textArea { margin-top: 30px;}

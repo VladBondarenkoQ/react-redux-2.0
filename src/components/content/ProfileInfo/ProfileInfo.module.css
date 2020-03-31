@@ -1,0 +1,12 @@
+.ava img {
+
+  width: 200px;
+}
+.profileInfo {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  margin: 20px;
+}
+.description {
+  padding-left: 40px;
+}

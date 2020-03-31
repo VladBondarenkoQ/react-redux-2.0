@@ -1,0 +1,19 @@
+.nav{
+
+  grid-area: n;
+  background-color: #D8BFD8;
+  text-align: center;
+  min-height: 200px
+
+          }
+.item {
+
+  color: white;
+}
+.item a {   text-decoration: none;
+      color:white;
+      font-size: 30px;
+      font-weight: 200}
+a.active {
+  color: gold;
+}
