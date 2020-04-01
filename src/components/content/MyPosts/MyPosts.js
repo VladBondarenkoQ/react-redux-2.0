@@ -16,7 +16,7 @@ const MyPosts = (props) => {
     let text = newPostElement.current.value
     props.updateNewPostText(text)
    }
-  let postElements = props.posts.map( p => <Post message={p.message} likescount={p.likescount} /> )
+  let postElements = props.posts.map( p => <Post message={p.message} likescount={p.likescount} key={p.id} /> )
   return (
 
       <div className={classes.myPosts}> My posts <br/>
