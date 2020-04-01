@@ -1,3 +1,15 @@
+.wrapper {
+  display: grid;
+  grid-template-areas:  'avaButton nameStatus location'
+                        'avaButton nameStatus location';
+  grid-template-columns: 2fr 5fr 8fr  ;
+  grid-template-rows:50px 50px;
+}
+.gridAreaA{ grid-area: avaButton}
+.gridAreaB{ grid-area: nameStatus }
+.gridAreaC{ grid-area: location}
+.fullName {font-size: 20px; font-weight: 600;}
+.status {font-style: italic; color: gray}
 .ava img {
   width: 70px;
   height: 70px;
